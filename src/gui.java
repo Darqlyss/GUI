@@ -25,6 +25,8 @@ public class gui {
                 TaVypis.append(text + "\n");
             }
         });
+
+        TaVypis.setEditable(false);
     }
 
     public static void main(String[] args) {
